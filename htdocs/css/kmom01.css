@@ -59,6 +59,16 @@ body {
     border-radius: 10%;
 }
 
+.my-navbar li:hover {
+    background-color: #4b4b4c;
+    box-shadow: 1em 1.5em 2em 0.5em #757f94;
+    transition-duration: 0.4s;
+}
+
 .my-navbar a {
     text-decoration: none;
+}
+
+.my-navbar a:hover {
+    text-decoration: underline;
 }
