@@ -14,3 +14,51 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: #4b4b4c;
+}
+
+body {
+    background-color: #bfc5d8;
+}
+
+.wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.site-logo {
+    display: none;
+}
+
+.right {
+    float: right;
+}
+
+.block {
+    margin: auto;
+    border-top: 1px solid black;
+    display: inline-block;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.my-navbar {
+    list-style: none;
+}
+
+.my-navbar li {
+    float: left;
+    padding: 5px 5px;
+    margin: 2px 5px;
+    border: 0.1em solid black;
+    border-radius: 10%;
+}
+
+.my-navbar a {
+    text-decoration: none;
+}
