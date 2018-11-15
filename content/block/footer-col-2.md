@@ -1,3 +1,5 @@
-#### Footer col 2
+#### Länkar:
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[Min Github](https://github.com/Nicklaspoke)
+
+[Alla mina kurser på studentservern](http://www.student.bth.se/~niko14/dbwebb-kurser/)

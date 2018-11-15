@@ -1,1 +1,1 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+Nicklas König &copy; Student på [BTH](https://www.bth.se/)

@@ -39,7 +39,6 @@ body {
 .block {
     margin: auto;
     border-top: 1px solid black;
-    display: inline-block;
 }
 
 .footer-column {
@@ -71,4 +70,29 @@ body {
 
 .my-navbar a:hover {
     text-decoration: underline;
+}
+
+.footer-column-x p {
+    display: inline-block;
+    margin: 0 0 2px 0;
+}
+
+.footer-column-x a {
+    text-decoration: none;
+}
+
+.footer-column-x a:hover {
+    text-decoration: underline;
+}
+.footer-column-x h4 {
+    margin-bottom: 5px;
+}
+
+.site-footer {
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.site-footer a {
+    text-decoration: none;
 }
