@@ -1,7 +1,7 @@
 Revision History
 ==================
 
-v1.0.1 (2018-11-08)
+v1.0.0 (2018-11-08)
 --------------------
 
 * Added revision history and licence
@@ -17,3 +17,11 @@ V1.0.3 (2018-11-14)
 --------------------
 
 * Updated and finished stylesheet for kmom01
+
+V1.0.3 (2018-11-15)
+--------------------
+
+* Updated footer texts
+* Changed image size in index page
+* Added text to the indexpage in redovisa
+* Wrote report text for kmom01
