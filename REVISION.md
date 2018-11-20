@@ -25,3 +25,8 @@ V1.0.3 (2018-11-15)
 * Changed image size in index page
 * Added text to the indexpage in redovisa
 * Wrote report text for kmom01
+
+V2.0.0 (2018-11-20)
+--------------------
+
+* Added and installed theme folder
