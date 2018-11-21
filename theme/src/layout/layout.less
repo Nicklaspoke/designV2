@@ -11,8 +11,19 @@
 /**
  * General layout
  */
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
 .wrap-all {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -32,6 +43,7 @@
 .inner-wrap {
     max-width: 800px;
     margin: 0 auto;
+    background-color: #ffd7f8;
 }
 
 .footer-column {
@@ -79,7 +91,8 @@
 
 .my-navbar li:hover {
     background-color: #4b4b4c;
-    box-shadow: 1em 1.5em 2em 0.5em #757f94;
+    box-shadow: 1em 1.5em 1em 0.5em #757f94;
+    transition-duration: 0.4s;
 }
 
 .my-navbar a {
@@ -88,4 +101,9 @@
 
 .my-navbar a:hover {
     text-decoration: underline;
+}
+
+.article {
+    max-width: 80em;
+    margin: auto 1em;
 }
