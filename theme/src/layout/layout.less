@@ -12,27 +12,12 @@
  * General layout
  */
 
-// /* Hide submenu, leave this to kmom02 */
-// .rm-desktop ul {
-//     display: none;
-// }
-
-// /* Hide responsive/mobile menu, leave this to kmom02 */
-// .rm-navbar-max {
-//     display: none;
-// }
-
-
 .site-logo {
     display: none;
 }
 
 .right {
     float: right;
-}
-
-.block {
-    border-top: 1px solid black;
 }
 
 .outer-wrap.outer-wrap-header {
@@ -126,14 +111,6 @@
     list-style: none;
 }
 
-// .my-navbar li {
-//     float: left;
-//     padding: 0.1em 0.1em;
-//     margin: 0.1em 0.2em;
-//     border: 0.1em solid black;
-//     border-radius: 10%;
-// }
-
 .my-navbar li:hover {
     background-color: #8f9197;
     transition-duration: 0.4s;
@@ -150,4 +127,35 @@
 .region-flash img {
     width: 100%;
     margin: 0.1em auto;
+}
+
+/**
+* Main and sidebar layouts
+**/
+.inner-wrap-main {
+    .clearfix();
+}
+.region-sidebar-right,
+.region-sidebar-left {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+.region-main {
+    width: 70%;
+    float: left;
+    margin-left: 10%;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
 }
