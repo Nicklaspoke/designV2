@@ -4315,155 +4315,6 @@ template {
   font-family: 'Font Awesome 5 Brands';
 }
 /**
-* Internal self contained modules, save in directory module/.
-*/
-/**
-* Base style to affect HTML elements on a general scale.
-*/
-/**
- * Base style to affect HTML elements on a general scale.
- */
-html {
-  overflow-y: scroll;
-  background-color: #4b4b4c;
-}
-body {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #bfc5d8;
-  font: 100.01%/1 serif;
-}
-/**
-* Layout style for general structure of header, navbar, main, footer
-* and other regions of the page including route specific styles.
-*/
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
-.wrap-all {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-.site-logo {
-  display: none;
-}
-.right {
-  float: right;
-}
-.block {
-  margin: auto;
-  border-top: 1px solid black;
-}
-.inner-wrap {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #ffd7f8;
-}
-.footer-column {
-  width: 33%;
-  float: left;
-}
-.footer-column-x p {
-  display: inline-block;
-  margin: 0 0 2px 0;
-}
-.footer-column-x a {
-  text-decoration: none;
-}
-.footer-column-x a:hover {
-  text-decoration: underline;
-}
-.footer-column-x h4 {
-  margin-bottom: 5px;
-}
-.site-footer {
-  border-top: 1px solid black;
-  text-align: center;
-}
-.site-footer a {
-  text-decoration: none;
-}
-.my-navbar {
-  list-style: none;
-}
-.my-navbar li {
-  float: left;
-  padding: 5px 5px;
-  margin: 2px 5px;
-  border: 0.1em solid black;
-  border-radius: 10%;
-}
-.my-navbar li:hover {
-  background-color: #4b4b4c;
-  box-shadow: 1em 1.5em 1em 0.5em #757f94;
-  transition-duration: 0.4s;
-}
-.my-navbar a {
-  text-decoration: none;
-}
-.my-navbar a:hover {
-  text-decoration: underline;
-}
-.article {
-  max-width: 80em;
-  margin: auto 1em;
-}
-/**
- * Layout for responsive style through media queries.
- */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
-/**
- * Show off the regions used in the website, to ease styling.
- */
-.regions .outer-wrap {
-  background-color: #f4e3c9;
-  border: 1px solid #e3b774;
-}
-.regions .inner-wrap {
-  background-color: #f4e0e9;
-  border: 1px solid #d995b4;
-}
-.regions .region-header-col-1,
-.regions .region-header-col-2,
-.regions .region-header-col-3,
-.regions .region-flash,
-.regions .region-breadcrumb,
-.regions .region-flash-message,
-.regions .region-columns-above,
-.regions .region-main,
-.regions .region-after-main,
-.regions .region-columns-below,
-.regions .region-sidebar-left,
-.regions .region-sidebar-right,
-.regions .region-footer,
-.regions .region-footer-column-1,
-.regions .region-footer-column-2,
-.regions .region-footer-column-3 {
-  background-color: #b5dce1;
-  border: 1px solid #6cbac4;
-  color: #111;
-}
-/**
  * A responsive menu.
  */
 /**
@@ -4709,6 +4560,162 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   .rm-small {
     display: none;
   }
+}
+/**
+* Internal self contained modules, save in directory module/.
+*/
+/**
+* Base style to affect HTML elements on a general scale.
+*/
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #4b4b4c;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #bfc5d8;
+  font: 100.01%/1 serif;
+}
+img {
+  max-width: 100%;
+}
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.site-logo {
+  display: none;
+}
+.right {
+  float: right;
+}
+.block {
+  border-top: 1px solid black;
+}
+.region-sidebar-right {
+  max-width: 30%;
+  display: inline;
+}
+.wrap-all {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #8f9197;
+}
+.outer-wrap {
+  max-width: 90%;
+  margin: auto;
+}
+.inner-wrap {
+  max-width: 80%;
+  margin: auto;
+  background-color: #bfc5d8;
+}
+.article {
+  max-width: 90em;
+  margin: auto 1em;
+  display: inline-block;
+}
+.footer-column {
+  width: 33%;
+  float: left;
+}
+.footer-column-x p {
+  display: inline-block;
+  margin: 0 0 2px 0;
+}
+.footer-column-x a {
+  text-decoration: none;
+}
+.footer-column-x a:hover {
+  text-decoration: underline;
+}
+.footer-column-x h4 {
+  margin-bottom: 5px;
+}
+.site-footer {
+  border-top: 1px solid black;
+  text-align: center;
+}
+.site-footer a {
+  text-decoration: none;
+}
+.my-navbar {
+  list-style: none;
+}
+.my-navbar li {
+  float: left;
+  padding: 0.1em 0.1em;
+  margin: 0.1em 0.2em;
+  border: 0.1em solid black;
+  border-radius: 10%;
+}
+.my-navbar li:hover {
+  background-color: #8f9197;
+  transition-duration: 0.4s;
+}
+.my-navbar a {
+  text-decoration: none;
+}
+.my-navbar a:hover {
+  text-decoration: underline;
+}
+.region-flash img {
+  width: 100%;
+  margin: 0.1em auto;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
 }
 /**
   * My own settings, not currently in their own module.
