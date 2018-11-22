@@ -31,8 +31,9 @@ V2.0.0 (2018-11-20)
 
 * Added and installed theme folder
 
-V2.0.1 (2018-11-21)
+V2.0.1 (2018-11-22)
 --------------------
 
 * First version of kmom02 theme done
 * Splitted up CSS code in base and layout modules
+* Responsivness for images and navbar menus added
