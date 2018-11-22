@@ -4,10 +4,17 @@
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
 
- /**
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+        /**
  * Normalize and reset the style.
  */
 @import "normalize.css/normalize.less";
+
 
 /**
  * Font Awesome.
@@ -16,11 +23,7 @@
 @import "@fortawesome/fontawesome-free/less/solid.less";
 @import "@fortawesome/fontawesome-free/less/brands.less";
 
-/**
- * A responsive menu.
- */
-@import "@desinax/responsive-menu/less/responsive-menu.less";
-@import "@desinax/responsive-menu/less/media-queries.less";
+
 
 /**
 * Internal self contained modules, save in directory module/.
@@ -40,7 +43,11 @@
 @import "layout/responsive.less";
 @import "layout/regions.less";     // To add style for ?regions
 
-
+/**
+ * A responsive menu.
+ */
+ @import "@desinax/responsive-menu/less/responsive-menu.less";
+ @import "@desinax/responsive-menu/less/media-queries.less";
 
  /**
   * My own settings, not currently in their own module.
