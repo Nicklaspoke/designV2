@@ -54,3 +54,10 @@ V3.0.0 (2018-11-29)
 --------------------
 
 *Added vertical grid
+
+v3.0.1 (2018-11-29)
+--------------------
+
+* Regions are now styled with desinax grid
+* Cahnged flash image for report page
+* General clean-up in the vgrid stylesheet
