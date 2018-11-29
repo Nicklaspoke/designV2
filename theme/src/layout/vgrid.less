@@ -57,6 +57,14 @@
     #desinax-vgrid.column(@columns);
 }
 
+.region-flash-message {
+    #desinax-vgrid.column(@columns);
+}
+
+.flashmessage {
+    border: 0.1em solid #333;
+}
+
 /**
 *   Header Styling
 */
@@ -172,7 +180,42 @@
 /**
 *   Responsiveness for 1, 2, 3 column layout
 */
+@media screen and (max-width: 1050px) {
+    .region-main {
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
 
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .region-main {
+        &.has-sidebar-right {
+            #desinax-vgrid.column(@columns)
+        }
+
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+    }
+    }
+}
 /**
 *   Styling for toc and buttons on report page
 */
