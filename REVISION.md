@@ -49,3 +49,8 @@ V2.0.2 (2018-11-22)
 * Menu is more responsive
 * Column for 1, 2 and 3 works now
 * Wrote report for kmom02
+
+V3.0.0 (2018-11-29)
+--------------------
+
+*Added vertical grid
