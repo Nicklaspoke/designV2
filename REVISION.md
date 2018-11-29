@@ -61,3 +61,10 @@ v3.0.1 (2018-11-29)
 * Regions are now styled with desinax grid
 * Cahnged flash image for report page
 * General clean-up in the vgrid stylesheet
+
+v3.0.2 (2018-11-29)
+--------------------
+
+* Horizontal/typographical grid activated
+* Added new font for the site
+* Styled Toc and buttons in report page

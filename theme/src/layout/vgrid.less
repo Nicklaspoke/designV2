@@ -159,3 +159,57 @@
         // width: 60%;
     }
 }
+
+/**
+*   Styling for toc and buttons on report page
+*/
+
+.next-previous {
+    #desinax-vgrid.column(@columns);
+    margin-top: @magicNumber;
+    margin-bottom: @magicNumber;
+}
+
+.next-previous .next {
+    float: right;
+    padding: 1em;
+}
+
+.next-previous .previous {
+    float: left;
+    padding: 1em;
+}
+
+.next-previous .next a,
+.next-previous .previous a {
+    text-decoration: none;
+}
+
+.next-previous .next:hover,
+.next-previous .previous:hover {
+    background-color: #8f9197;
+    transition-duration: 0.4s;
+    text-decoration: underline;
+}
+
+.toc {
+    list-style: none;
+}
+
+.toc li {
+    padding: 0.2em;
+
+    &.selected {
+        background-color: gold;
+    }
+}
+
+.toc li:hover {
+    background-color: #8f9197;
+    transition-duration: 0.4s;
+    text-decoration: underline;
+}
+
+.toc li a {
+    text-decoration: none;
+}
