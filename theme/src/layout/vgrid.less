@@ -140,30 +140,42 @@
 */
 .region-sidebar-right,
 .region-sidebar-left {
-    #desinax-vgrid.column(6);
+    #desinax-vgrid.column(@columns * 1/4);
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.push(1);
 }
 
 .region-sidebar-left.has-sidebar-right,
 .region-sidebar-right.has-sidebar-left {
-    // #desinax-vgrid.column(3);
+    #desinax-vgrid.column(@columns * 1/4 - 2);
 }
 
 .region-main {
-    #desinax-vgrid.column(18);
+    #desinax-vgrid.column(@columns * 3/4);
+    #desinax-vgrid.push(3);
 
     &.has-sidebar {
-        // margin-left: 0;
+        #desinax-vgrid.push(0);
     }
 
+    &.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 3/4 - 1);
+    }
     &.has-sidebar-left.has-sidebar-right {
-        // width: 60%;
+        #desinax-vgrid.column(@columns * 3/4 - 3);
+        #desinax-vgrid.push(0);
     }
 }
 
 /**
-*   Styling for toc and buttons on report page
+*   Responsiveness for 1, 2, 3 column layout
 */
 
+/**
+*   Styling for toc and buttons on report page
+*/
 .next-previous {
     #desinax-vgrid.column(@columns);
     margin-top: @magicNumber;
