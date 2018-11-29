@@ -68,3 +68,12 @@ v3.0.2 (2018-11-29)
 * Horizontal/typographical grid activated
 * Added new font for the site
 * Styled Toc and buttons in report page
+
+v3.0.3 (2018-11-29)
+--------------------
+
+* Added styling with grid for 1 or 2 sidebars
+* Added responsiveness for 1 or 2 sidebars
+* Activated kmom03 stylesheet as default stylesheet
+* Added style for the flashmessage
+* Wrote report for kmom03
