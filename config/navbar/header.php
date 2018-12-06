@@ -44,6 +44,11 @@ return [
             ],
         ],
         [
+            "text" => "Rapporter",
+            "url" => "rapport",
+            "title" => "Rapporter För Kursen Design",
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",
@@ -62,11 +67,6 @@ return [
             "text" => "Testa MD",
             "url" => "test",
             "title" => "Testa och lek med markdown och ramverkets views",
-        ],
-        [
-            "text" => "Rapporter",
-            "url" => "rapport",
-            "title" => "Rapporter För Kursen Design",
         ],
     ],
 ];
