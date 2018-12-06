@@ -77,3 +77,11 @@ v3.0.3 (2018-11-29)
 * Activated kmom03 stylesheet as default stylesheet
 * Added style for the flashmessage
 * Wrote report for kmom03
+
+v4.0.0 (2018-12-06)
+-------------------
+
+* Added new navbar item "rapporter"
+* Added missing submenu items for the "redovisning" menu. Now it has dropdown items up to kmom04
+* Fixed a typo in the kmom03 report text
+* Report about color in webbsites written
