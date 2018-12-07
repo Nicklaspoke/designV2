@@ -123,11 +123,6 @@
 }
 
 .footer-column-1,
-.footer-column-2 {
-    border-right: 0.1em solid #333;
-}
-
-.footer-column-1,
 .footer-column-2,
 .footer-column-3 {
     min-height: 10em;
@@ -189,6 +184,10 @@
 
     .region-sidebar-left.has-sidebar-right,
     .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .footer-column {
         #desinax-vgrid.column(@columns);
     }
 }
