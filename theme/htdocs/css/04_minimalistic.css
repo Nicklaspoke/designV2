@@ -4407,7 +4407,7 @@ template {
 .inner-wrap-footer {
   margin-right: auto;
   margin-left: auto;
-  max-width: 23;
+  max-width: 99%;
 }
 .site-logo {
   display: none;
@@ -5339,15 +5339,21 @@ hr::after {
 /*
 *   Editing the theme specific code in this stylesheet
 */
+body {
+  background-color: #4E5158;
+}
 .my-navbar li:hover {
   background-color: #BFC5D8;
   transition-duration: 0s;
 }
 .outer-wrap.outer-wrap-header {
-  background-color: #BFC5D8;
+  background-color: #9296A5;
 }
 .outer-wrap {
   background-color: #4E5158;
+}
+.inner-wrap {
+  background-color: #BFC5D8;
 }
 .toc li.selected {
   background-color: #8298DE;
