@@ -5341,6 +5341,7 @@ hr::after {
 */
 body {
   background-color: #4E5158;
+  font-family: 'Times New Roman', Times, serif;
 }
 .my-navbar li:hover {
   background-color: #BFC5D8;
