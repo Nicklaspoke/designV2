@@ -85,3 +85,9 @@ v4.0.0 (2018-12-06)
 * Added missing submenu items for the "redovisning" menu. Now it has dropdown items up to kmom04
 * Fixed a typo in the kmom03 report text
 * Report about color in webbsites written
+
+v4.0.1 (2018-12-07)
+
+* Made footer coloumns responsive
+* Fixed horizontal scroolbar problem
+* Minimalistic Theme done
