@@ -91,3 +91,7 @@ v4.0.1 (2018-12-07)
 * Made footer coloumns responsive
 * Fixed horizontal scroolbar problem
 * Minimalistic Theme done
+
+v4.0.2 (2018-12-07)
+
+* Colorfull theme added
