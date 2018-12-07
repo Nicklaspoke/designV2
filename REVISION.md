@@ -95,3 +95,9 @@ v4.0.1 (2018-12-07)
 v4.0.2 (2018-12-07)
 
 * Colorfull theme added
+
+v4.0.3 (2018-12-07)
+
+* Dark theme added
+* Wrote report for kmom04
+* Activated dark theme as default theme
