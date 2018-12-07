@@ -18,7 +18,7 @@ I min metod användes webbverktyget colorzilla. Vilket är ett webbläsar tillä
 
 ## Resultat
 
- ## BTH
+## BTH
 
 [FIGURE src=image/BTH.png?width=720 caption="fig 1"]
 [FIGURE src=image/BTH-2.png?width=720 caption="fig 2"]
