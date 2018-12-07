@@ -10,9 +10,9 @@
 *   Importing The kmom04 base theme
 */
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This style sheet is for kmom03 where I use a grid layout.
+ *
  */
 /**
  * A small clearfix:
@@ -5370,4 +5370,7 @@ body {
 }
 a {
   color: #ccc;
+}
+code {
+  background-color: #444;
 }
