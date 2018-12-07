@@ -4496,10 +4496,6 @@ template {
   text-decoration: underline;
 }
 .footer-column-1,
-.footer-column-2 {
-  border-right: 0.1em solid #333;
-}
-.footer-column-1,
 .footer-column-2,
 .footer-column-3 {
   min-height: 10em;
@@ -4572,6 +4568,13 @@ template {
   }
   .region-sidebar-left.has-sidebar-right,
   .region-sidebar-right.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .footer-column {
     display: inline;
     float: left;
     width: 98.95833333%;

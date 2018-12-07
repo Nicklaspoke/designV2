@@ -1,4 +1,15 @@
 /*!
+* Stylesheet for design kmom04
+*
+* This is the code for the minimalistic theme for kmom04
+*/
+/**
+* Variables
+*/
+/**
+*   Importing The kmom04 base theme
+*/
+/*!
  * Stylesheet for design kmom03.
  *
  * This style sheet is for kmom03 where I use a grid layout.
@@ -5325,3 +5336,32 @@ hr::after {
 /**
   * My own settings, not currently in their own module.
   */
+/*
+*   Editing the theme specific code in this stylesheet
+*/
+.my-navbar li:hover {
+  background-color: #BFC5D8;
+  transition-duration: 0s;
+}
+.outer-wrap.outer-wrap-header {
+  background-color: #BFC5D8;
+}
+.outer-wrap {
+  background-color: #4E5158;
+}
+.toc li.selected {
+  background-color: #8298DE;
+}
+.toc li:hover {
+  background-color: transparent;
+  transition-duration: 0s;
+}
+.next-previous .next:hover,
+.next-previous .previous:hover {
+  background-color: transparent;
+  transition-duration: 0s;
+}
+.breadcrumb-list li a:hover {
+  background-color: transparent;
+  transition-duration: 0s;
+}

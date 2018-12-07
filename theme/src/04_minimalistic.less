@@ -1,0 +1,59 @@
+/*!
+* Stylesheet for design kmom04
+*
+* This is the code for the minimalistic theme for kmom04
+*/
+
+/**
+* Variables
+*/
+@baseColor: #BFC5D8;
+@secondaryColor: #4E5158;
+@thirdColor: #9296A5;
+@accentColor: #8298DE;
+
+@bgColorBody: @secondaryColor;
+/**
+*   Importing The kmom04 base theme
+*/
+@import "kmom04.less";
+
+/*
+*   Editing the theme specific code in this stylesheet
+*/
+
+.my-navbar li:hover {
+    background-color: @baseColor;
+    transition-duration: 0s;
+}
+
+.outer-wrap.outer-wrap-header {
+    background-color: @baseColor;
+}
+
+.outer-wrap {
+    background-color: @secondaryColor;
+}
+
+.toc li {
+
+    &.selected {
+        background-color: @accentColor;
+    }
+}
+
+.toc li:hover {
+    background-color: transparent;
+    transition-duration: 0s;
+}
+
+.next-previous .next:hover,
+.next-previous .previous:hover {
+    background-color: transparent;
+    transition-duration: 0s;
+}
+
+.breadcrumb-list li a:hover {
+    background-color: transparent;
+    transition-duration: 0s;
+}
