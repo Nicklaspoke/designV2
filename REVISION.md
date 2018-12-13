@@ -101,3 +101,8 @@ v4.0.3 (2018-12-07)
 * Dark theme added
 * Wrote report for kmom04
 * Activated dark theme as default theme
+
+v5.0.0 (2018-12-13)
+-------------------
+
+* Report about pagespeed in kmom05 written.
