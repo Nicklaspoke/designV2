@@ -87,16 +87,19 @@ v4.0.0 (2018-12-06)
 * Report about color in webbsites written
 
 v4.0.1 (2018-12-07)
+-------------------
 
 * Made footer coloumns responsive
 * Fixed horizontal scroolbar problem
 * Minimalistic Theme done
 
 v4.0.2 (2018-12-07)
+--------------------
 
 * Colorfull theme added
 
 v4.0.3 (2018-12-07)
+-------------------
 
 * Dark theme added
 * Wrote report for kmom04
@@ -106,3 +109,10 @@ v5.0.0 (2018-12-13)
 -------------------
 
 * Report about pagespeed in kmom05 written.
+* Added kmom05 theme (it's the dark theme from kmom04)
+
+v5.0.0 (2018-12-17)
+-------------------
+
+* Installed and included desinax figure into kmom05 theme
+* Blogg part of the page added to webbpage and navbar
