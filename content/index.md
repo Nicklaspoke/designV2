@@ -14,7 +14,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/me.jpg?w=150" class="right" caption="Bild på mig på östersjön i Finland"]
+[FIGURE src="image/me.jpg?w=150" class="figure right" caption="Bild på mig på östersjön i Finland"]
 
 Jag heter Nicklas, född 95.
 Jag växte upp i en stad som heter Landskrona. Som ligger i östra delen av Skåne, mellan malmö och helsingborg.
