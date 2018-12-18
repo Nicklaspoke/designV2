@@ -116,3 +116,9 @@ v5.0.0 (2018-12-17)
 
 * Installed and included desinax figure into kmom05 theme
 * Blogg part of the page added to webbpage and navbar
+
+v5.0.1 (2018-12-18)
+-------------------
+
+* Wrote all three blog posts
+* report for kmom05 written
