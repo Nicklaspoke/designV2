@@ -1,0 +1,32 @@
+/*!
+ *
+ * Stylesheet for design kmom06.
+ */
+
+//Importing the theme from kmom05
+@import "kmom05.less";
+
+.my-navbar li:hover {
+    background-color: @accentColor;
+    transition-duration: 0.4s;
+    box-shadow: 0.5em 1em 1.5em 0 @accentColor;
+}
+
+.toc li:hover {
+    background-color: @secondaryColor;
+    transition-duration: 0.4s;
+    box-shadow: 0.5em 1em 1.5em 0 @accentColor;
+}
+
+.next-previous .next:hover,
+.next-previous .previous:hover {
+    background-color: @secondaryColor;
+    transition-duration: 0.4s;
+    box-shadow: 0.5em 1em 1.5em 0 @accentColor;
+}
+
+.breadcrumb-list li a:hover {
+    background-color: @secondaryColor;
+    transition-duration: 0.4s;
+    box-shadow: 0.5em 1em 1.5em 0 @accentColor;
+}

@@ -122,3 +122,8 @@ v5.0.1 (2018-12-18)
 
 * Wrote all three blog posts
 * report for kmom05 written
+
+v6.0.0 (2019-01-06)
+-------------------
+
+* Report about design written
