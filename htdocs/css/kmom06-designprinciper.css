@@ -1,6 +1,6 @@
 /*!
  *
- * Stylesheet for design elements in kmom06.
+ * Stylesheet for design principels in kmom06.
  */
 /*!
  * Stylesheet for design kmom04.
@@ -5511,24 +5511,16 @@ figure.codepen,
 figure.figure-codepen {
   width: 100%;
 }
-.my-navbar li:hover {
-  background-color: #444;
-  transition-duration: 0.4s;
-  box-shadow: 0.5em 1em 1.5em 0 #444;
+h1,
+h2,
+h3,
+h4,
+.toc {
+  color: #7fb7f7;
+  border-bottom: solid 0.1em #9034fa;
 }
-.toc li:hover {
-  background-color: #222;
-  transition-duration: 0.4s;
-  box-shadow: 0.5em 1em 1.5em 0 #444;
-}
-.next-previous .next:hover,
-.next-previous .previous:hover {
-  background-color: #222;
-  transition-duration: 0.4s;
-  box-shadow: 0.5em 1em 1.5em 0 #444;
-}
-.breadcrumb-list li a:hover {
-  background-color: #222;
-  transition-duration: 0.4s;
-  box-shadow: 0.5em 1em 1.5em 0 #444;
+.toc a,
+article a {
+  color: #fc6348;
+  border-bottom: solid 0.1em #ff862a;
 }
