@@ -1,7 +1,31 @@
 /*!
- * Stylesheet for design kmom03.
  *
- * This style sheet is for kmom03 where I use a grid layout.
+ * Stylesheet for design elements in kmom06.
+ */
+/*!
+ *
+ * Stylesheet for design elements in kmom06.
+ */
+/*!
+ * Stylesheet for design kmom04.
+ *
+ * This theme includes the cimage module
+ */
+/*!
+* Stylesheet for design kmom04
+*
+* This is the code for the minimalistic theme for kmom04
+*/
+/**
+* Variables
+*/
+/**
+*   Importing The kmom04 base theme
+*/
+/*!
+ * Stylesheet for design kmom04.
+ *
+ *
  */
 /**
  * A small clearfix:
@@ -5325,3 +5349,218 @@ hr::after {
 /**
   * My own settings, not currently in their own module.
   */
+/*
+*   Editing the theme specific code in this stylesheet
+*/
+body {
+  color: #ddd;
+  background-color: #111;
+}
+.my-navbar li:hover {
+  background-color: #222;
+}
+.outer-wrap.outer-wrap-header {
+  background-color: #111;
+}
+.outer-wrap {
+  background-color: #111;
+}
+.inner-wrap {
+  background-color: #333;
+}
+.toc li.selected {
+  background-color: #444;
+}
+.toc li:hover {
+  background-color: #222;
+}
+.next-previous .next:hover,
+.next-previous .previous:hover {
+  background-color: #222;
+}
+.breadcrumb-list li a:hover {
+  background-color: #222;
+}
+a {
+  color: #ccc;
+}
+code {
+  background-color: #444;
+}
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+.my-navbar li:hover {
+  background-color: #444;
+  transition-duration: 0.4s;
+  box-shadow: 0.5em 1em 1.5em 0 #444;
+}
+.toc li:hover {
+  background-color: #222;
+  transition-duration: 0.4s;
+  box-shadow: 0.5em 1em 1.5em 0 #444;
+}
+.next-previous .next:hover,
+.next-previous .previous:hover {
+  background-color: #222;
+  transition-duration: 0.4s;
+  box-shadow: 0.5em 1em 1.5em 0 #444;
+}
+.breadcrumb-list li a:hover {
+  background-color: #222;
+  transition-duration: 0.4s;
+  box-shadow: 0.5em 1em 1.5em 0 #444;
+}
+.outer-wrap {
+  background-image: url("../img/background.png");
+}
+.inner-wrap {
+  background-color: rgba(51, 51, 51, 0.9);
+}
+.row {
+  background-color: transparent;
+}
+main {
+  min-height: 20em;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #20C20E;
+  border-bottom: solid 1px #20C20E;
+}
+.send-button {
+  padding: 0.3em;
+  background-color: #344333;
+  border: none;
+  color: #ddd;
+}
+.send-button:active {
+  border: solid 1px gold;
+}
